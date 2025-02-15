@@ -75,40 +75,27 @@ order: 8
             margin-top: 40px;
         }
     </style>
-    <title>Do you know yourself?</title>
+    <title>Who</title>
 </head>
 <body>
     <div class="container">
-        <h1>What makes or made you the person you are today?</h1>
-
-        <br>
-        <div class="content-section">
-            <p>My passion for computers began in childhood, back when computers were big, noisy, and had floppy disks. I used to accompany my father to a friend’s house on the street behind ours to help fix his computer. On our way back, my dad and I would race to see who’d get home first. I always won. Maybe he let me win to make me happy. These simple but deeply meaningful moments are etched into my memory forever.</p>
-        </div>
+        <h1>Hello, World!</h1>
 
         <div class="content-section">
-            <p>As a teenager, I was just an enthusiastic user, spending hours on the computer: gaming, listening to music, or chatting on mIRC. Noticing my excitement and my lack of bedtime limits my dad started to regulate my screen time. He configured the system to limit app usage during certain hours.</p>
+            <p>Hi I'm Johnson and I'm starting on this path of 
+            becoming a full stack software engineer. I am interested in 
+            building applications that help others. I like solving problems 
+            that I encounter and sharing the process I took to overcome those obstacles. 
+            It's also a pleasure to hear experiences of other's facing or have faced similar problems, 
+            I learn a lot from their experiences as well as from reflecting on mine.
+            <br>
+            Resting and knowing how to cope with stress is also important. 
+            I like to listen to music and read to find peace. This year I'm starting 
+            this blog as a side activity, for the future me and readers. I'll share my experience 
+            along the way. Thanks for reading and hope you achieve your goals too!</p>
         </div>
 
-        <div class="content-section">
-            <p>And that’s when our “game” began. He’d come up with ways to stop me from staying up late on the computer, and I’d challenge myself to find ways to bypass his restrictions. This turned into a fun learning experience that deepened my love for technology.</p>
-        </div>
 
-        <div class="content-section">
-            <p>The answer to the question at the beginning of this text? <b>My dad!</b></p>
-        </div>
-
-        <div class="content-section">
-            <p>My father is my greatest source of inspiration. He taught me to fight for my dreams, celebrated all my achievements, and, even though it saddened him to know I’d move to the other side of the world, encouraged me to go.</p>
-        </div>
-
-        <div class="content-section">
-            <p>Today, he’s no longer here. I still miss him and know I always will. He was and always will be my foundation the one who held my hand and kept me steady when life tried to knock me down.</p>
-        </div>
-
-        <div class="content-section">
-            <p>He drives me, he motivates me, and he inspires me to keep getting better! 😊</p>
-        </div>
 
 
     </div>
