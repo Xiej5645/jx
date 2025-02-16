@@ -86,6 +86,9 @@ order: 8
             padding-left:10px; 
             /* outline:none; */
         }
+        textarea {
+            padding-top:10px; 
+        }
         input[type="submit"] {
             width:200px;
             height:3em;
