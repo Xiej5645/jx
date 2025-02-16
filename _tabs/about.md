@@ -77,14 +77,51 @@ order: 8
         form {
             display:flex;
             flex-direction:column;
-            align-items:normal;            
-
+            align-items:normal;
+            gap:15px;
         }
-        input, label textarea{
+        input:not([type="submit"]), label textarea{
             display:block;
             width:100%;
             padding-left:10px; 
+            /* outline:none; */
         }
+        input[type="submit"] {
+            width:200px;
+            height:3em;
+            margin: 0 auto;
+            border: 2px solid #1A1A1A;
+            border-radius: 15px;
+            color: #FFFFFF;
+            background-color: #000000;
+            cursor: pointer;
+            box-sizing: border-box;
+            text-decoration: none;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            will-change: transform;
+            min-height: 60px;
+            text-align: center;
+        }
+        input[type="submit"]:focus {
+            outline-color: grey;
+            outline-width:2px;
+            border:5px solid white;
+        }
+        input[type="submit"]:disabled {
+            pointer-events: none;
+        }
+        input[type="submit"]:hover,input[type="submit"]:active {
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+        }
+        input[type="submit"]:active {
+        box-shadow: none;
+        transform: translateY(0);
+        }
+
     </style>
     <title>Who</title>
 </head>
@@ -123,7 +160,7 @@ order: 8
 
         <!-- Custom Confirmation / Success Page -->
         <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
-
+        
         <input type="submit" value="Submit Form">
 
     </form>
