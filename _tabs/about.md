@@ -74,6 +74,17 @@ order: 8
             color: #888;
             margin-top: 40px;
         }
+        form {
+            display:flex;
+            flex-direction:column;
+            align-items:normal;            
+
+        }
+        input, label textarea{
+            display:block;
+            width:100%;
+            padding-left:10px; 
+        }
     </style>
     <title>Who</title>
 </head>
@@ -95,6 +106,27 @@ order: 8
             along the way. Thanks for reading and hope you achieve your goals too!</p>
         </div>
 
+        <h2 style="text-decoration:underline">Contact Form:</h2>
+        
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+        <!-- Public Key Area-->
+        <input type="hidden" name="access_key" value="a774a0ec-d91c-4dc2-92ae-36eb81180af8">
+
+        <!-- Form Inputs. Each input must have a name="" attribute -->
+        <label for="name">Name: <input id="name" type="text" name="name" placeholder="Name/Subject" required></label>
+        <label for="email">Email: <input id="email" type="email" name="email" placeholder="e.g. example.gmail.com" required></label>
+        <label for="msg">Message: <textarea id="msg" name="message" placeholder="Type your message here" required></textarea></label>
+
+        <!-- Honeypot Spam Protection -->
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+        <!-- Custom Confirmation / Success Page -->
+        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+        <input type="submit" value="Submit Form">
+
+    </form>
 
 
 
