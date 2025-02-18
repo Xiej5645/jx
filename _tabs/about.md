@@ -7,8 +7,6 @@ order: 8
 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         /* body {
             font-family: 'Verdana', sans-serif;
@@ -121,7 +119,7 @@ order: 8
             transform: translateY(-2px);
         }
         input[type="submit"]:active {
-        box-shadow: none;
+            box-shadow: none;
         transform: translateY(0);
         }
 
@@ -147,7 +145,7 @@ order: 8
         </div>
 
         <h2 style="text-decoration:underline">Contact Form:</h2>
-        
+
         <form action="https://api.web3forms.com/submit" method="POST">
 
         <!-- Public Key Area-->
@@ -163,7 +161,7 @@ order: 8
 
         <!-- Custom Confirmation / Success Page -->
         <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
-        
+
         <input type="submit" value="Submit Form">
 
     </form>
