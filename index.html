@@ -7,13 +7,12 @@ permalink: /
 <script>
   function checkWindowHeight() {
     var footer = document.querySelector("footer");
+    if (!footer) return;
     if (window.innerHeight > 900) {
       // Adjust the height threshold as needed
       footer.style.display = "block";
     } else {
-      if (footer) {
-        footer.style.display = "none";
-      }
+      footer.style.display = "none";
     }
   }
 
@@ -112,12 +111,12 @@ permalink: /
 </style>
 
 <div class="landing-page">
-  <!-- {{ site.baseurl }}/assets/images/logo.webp -->
-  <img
-    src="https://i.pinimg.com/736x/4b/b7/41/4bb741fce669e054b8adb6905876f516.jpg"
-    alt="Photo"
-    class="profile-photo"
-  />
+  <!-- 
+  {{ site.baseurl }}/assets/images/logo.webp 
+    https://i.pinimg.com/736x/4b/b7/41/4bb741fce669e054b8adb6905876f516.jpg
+  -->
+
+  <img src="/assets/img/lonely.jpg" alt="profile-photo" class="profile-photo" />
   <div class="profile-info">
     <div class="name">Johnson Xie</div>
     <div class="title">Aspiring Full Stack Engineer</div>
