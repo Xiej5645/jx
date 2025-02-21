@@ -3,16 +3,15 @@ layout: page
 title: Main
 permalink: /
 ---
-
 <script>
   function checkWindowHeight() {
-    var footer = document.querySelector("footer");
+    var footer = document.querySelector('footer');
     if (!footer) return;
     if (window.innerHeight > 900) {
       // Adjust the height threshold as needed
-      footer.style.display = "block";
+      footer.style.display = 'block';
     } else {
-      footer.style.display = "none";
+      footer.style.display = 'none';
     }
   }
 
@@ -22,7 +21,7 @@ permalink: /
 </script>
 
 <style>
-  @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 
   @keyframes bottomToTop {
     from {
@@ -111,19 +110,17 @@ permalink: /
 </style>
 
 <div class="landing-page">
-  <!-- 
-  {{ site.baseurl }}/assets/images/logo.webp 
+  <!--
+    {{ site.baseurl }}/assets/images/logo.webp
     https://i.pinimg.com/736x/4b/b7/41/4bb741fce669e054b8adb6905876f516.jpg
   -->
 
-  <img src="/assets/img/lonely.jpg" alt="profile-photo" class="profile-photo" />
+  <img src="/assets/img/lonely.jpg" alt="profile-photo" class="profile-photo">
   <div class="profile-info">
     <div class="name">Johnson Xie</div>
     <div class="title">Aspiring Full Stack Engineer</div>
     <div class="social-links">
-      <a href="https://github.com/xiej5645" target="_blank"
-        ><i class="fab fa-github"></i
-      ></a>
+      <a href="https://github.com/xiej5645" target="_blank"><i class="fab fa-github"></i></a>
       <!-- <a href="" target="_blank"><i class="fab fa-linkedin"></i></a> -->
       <!-- <a href="" target="_blank"><i class="fab fa-youtube"></i></a> -->
       <!-- <a href="" target="_blank"><i class="fab fa-telegram"></i></a> -->
@@ -131,7 +128,8 @@ permalink: /
   </div>
   <div class="description">
     Keeping a record for the future me.
-    <br />Keep Learning &amp; Every Day Is A Change To Be Better!
+    <br>
+    Keep Learning &amp; Every Day Is A Change To Be Better!
   </div>
   <div class="buttons">
     <a href="{{ site.baseurl }}/blog/" class="read-blog">Read Blog</a>
